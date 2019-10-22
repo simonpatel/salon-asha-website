@@ -11,10 +11,13 @@ h1{
 	border-radius: 25px;
 	padding: 20px;
 
+
 }
 
 body{
 	background-color: #7fe85f;
+	background-image: url("images/IMG_2232.JPG");
+	background-size: 1340px;
 }
 
 .content {
@@ -28,4 +31,32 @@ body{
 img{
 	width: 500px;
 	height: 200px;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+li{
+	float: left;
+
+}
+
+li a {
+  display: inline-block;
+  color: silver;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
 }
