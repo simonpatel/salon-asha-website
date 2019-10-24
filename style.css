@@ -10,7 +10,14 @@ h1{
 	border-color: silver;
 	border-radius: 25px;
 	padding: 20px;
+	margin-bottom: 80vh;
+}
 
+.footer {
+
+	display: flex;
+	background-color: black;
+	color: gold;
 
 }
 
@@ -18,14 +25,19 @@ body{
 	background-color: #7fe85f;
 	background-image: url("images/IMG_2232.JPG");
 	background-size: 1340px;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
 }
 
 .content {
 	text-align: center;
 	border-style: double;
 	border-color: silver;
-	border-radius: 25px;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
 	padding: 20px;
+	background-color: #7fe85f;
 }
 
 img{
